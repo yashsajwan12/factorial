@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>factorial</title>
+</head>
+<body bgcolor='yellow'>
+<form action='fac' method='post'>{% csrf_token %}
+	<h1>To calculate the factorial of a number</h1><br>
+	<h2>Enter the number<input type="number" name="num"></h2>
+	<input type="submit" value="CALCULATE">
+</form>
+	
+</body>
+</html>
