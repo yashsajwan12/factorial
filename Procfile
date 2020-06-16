@@ -1,0 +1,1 @@
+web: gunicorn factorial.wsgi --log-file -
